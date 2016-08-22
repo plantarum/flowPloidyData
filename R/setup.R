@@ -1,3 +1,3 @@
-flowPloidyFiles <-
-  list.files(system.file("extdata/", package = "flowPloidyData", 
-                         pattern = "*.LMD", full.names = TRUE))
+flowPloidyFiles <- 
+  list.files(system.file("extdata/", package = "flowPloidyData"), 
+             pattern = "*.LMD", full.names = TRUE)
