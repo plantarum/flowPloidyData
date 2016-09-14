@@ -27,7 +27,7 @@
   Each element is named with the filename (without the path), so that
   you can select an individual filename either by numeric index
   (i.e., \code{flowPloidyFiles[7]}) or by name
-  (\code{flowPloidyFiles["248+S.LMD"]). The names aren't meaningful to
+  (\code{flowPloidyFiles["248+S.LMD"]}). The names aren't meaningful to
   you, of course! I added them to provide a more robust way to select an
   individual file, as the order of files may change in package updates.
 
