@@ -51,7 +51,7 @@ fcs <- flowCore::read.FCS(flowPloidyFiles[1], dataset = 1,
                           alter.names = TRUE)
 
 ## Read in all the files:
-fcsBatch <- flowPloidy::histBatch(flowPloidyFiles,
+fcsBatch <- flowPloidy::batchFlowHist(flowPloidyFiles,
                                   channel = "FL3.INT.LIN")
 }
 

@@ -26,8 +26,8 @@ examples for how the flowPloidy package deals with good and bad situations.
 This package provides a single variable, useful as a convenience for
 accessing the files from an R session: `flowPloidyFiles`. This is a list of
 all the data files, which you can pass to functions such as
-`flowPloidy::histBatch(flowPloidyFiles, ...)` (which will read in all the
-files in the vector), or `flowCore::read.FCS(flowPloidyFiles[1], ...)` (to
-read in the first file in the vector).
+`flowPloidy::batchFlowHist(flowPloidyFiles, ...)` (which will read in all
+the files in the vector), or `flowCore::read.FCS(flowPloidyFiles[1], ...)`
+(to read in the first file in the vector).
 
 For further information, see the `flowPloidy` package.
