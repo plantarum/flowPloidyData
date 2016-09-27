@@ -47,12 +47,9 @@
 flowPloidyFiles   ## a character vector of file names
 
 ## Read in the first file:
-fcs <- flowCore::read.FCS(flowPloidyFiles[1], dataset = 1,
+library(flowCore)
+fcs <- read.FCS(flowPloidyFiles[1], dataset = 1,
                           alter.names = TRUE)
-
-## Read in all the files:
-fcsBatch <- flowPloidy::batchFlowHist(flowPloidyFiles,
-                                  channel = "FL3.INT.LIN")
 }
 
 \keyword{datasets}
